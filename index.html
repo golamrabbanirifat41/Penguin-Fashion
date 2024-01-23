@@ -28,7 +28,7 @@
 </head>
 <body>
     <header class="bg-amber-100">
-        <nav class="flex mx-36 justify-between">
+        <nav class="flex flex-col md:flex-row md:mx-36 md:justify-between">
             <div class="flex font-monster items-center">
                 <i class="fa-solid fa-bag-shopping"></i>
                 <h3 class="uppercase text-2xl"><span class="text-lime-500 ">penguin</span> fashion</h3>
@@ -46,11 +46,11 @@
     <main >
         <!-- --The banner section-- -->
         <section class="bg-amber-100 pt-4">
-            <div class="flex items-center mx-36 justify-between pb-7">
+            <div class="flex flex-col lg:flex-row items-center md:mx-36 justify-between pb-7">
                 <div>
                     <h2 class="font-bebas text-[#FABE4C;] font-normal text-7xl">BE THE PENGUINS</h2>
                     <h2 class="font-bebas font-normal text-7xl text-[ #363958;]">OF WINTER</h2>
-                    <P class="font-robot w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam natus placeat, eius possimus officia reiciendis delectus temporibus voluptas quibusdam.</P>
+                    <P class="font-robot lg:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam natus placeat, eius possimus officia reiciendis delectus temporibus voluptas quibusdam.</P>
                     <button class="py-5 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
                 </div>
                 <!-- I have problem here with image height--------- -->
@@ -62,9 +62,9 @@
 
         <!-- --Women Jacket Section-- -->
         <section class="mt-16">
-            <div class=" mx-36 ">
+            <div class=" lg:mx-36 ">
                 <h2 class="font-bebas text-5xl font-normal mb-16 ">WOMEN JACKET</h2>
-                <div class="flex space-x-7">  
+                <div class="flex flex-col lg:flex-row md:grid md:grid-cols-2 space-x-7">  
                     <!-- ---jacket-1---------------                   -->
                     <div class="font-robot rounded-2xl shadow-md shadow-gray-300 p-5 space-y-4">
                         <div class="bg-[#F1F1F1;] rounded-3xl">
@@ -108,9 +108,9 @@
         </section>
         <!-- --Men Jacket Section-- -->
         <section class="mt-16">
-            <div class=" mx-36 ">
+            <div class=" lg:mx-36 ">
                 <h2 class="font-bebas text-5xl font-normal mb-16 ">MEN JACKET</h2>
-                <div class="flex space-x-7">  
+                <div class="flex flex-col lg:flex-row space-x-7 md:grid md:grid-cols-2">  
                     <!-- ---jacket-1---------------                   -->
                     <div class="font-robot rounded-2xl shadow-md shadow-gray-300 p-5 space-y-4">
                         <div class="bg-[#F1F1F1;] rounded-3xl">
